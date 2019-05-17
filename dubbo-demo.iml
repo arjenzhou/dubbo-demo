@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Provider" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/cn/jcorn/dubbo/provider/provider.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="Consumer" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/cn/jcorn/dubbo/consumer/consumer.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>
