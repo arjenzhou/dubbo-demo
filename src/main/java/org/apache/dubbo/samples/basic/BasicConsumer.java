@@ -34,7 +34,6 @@ public class BasicConsumer {
 
         GreeterGrpc.IGreeter greeter = (GreeterGrpc.IGreeter) context.getBean("greeter");
         HelloReply reply = greeter.sayHello(HelloRequest.newBuilder().setName("world!").build());
-        System.out.println(reply.getMessage());
-//        System.in.read();
+        System.out.println("Hello, " + reply.getMessage());
     }
 }
